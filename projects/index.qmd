@@ -1,0 +1,50 @@
+---
+page-layout: full
+---
+
+## [HealthDataScotland](https://www.healthdatascotland.co.uk/)
+
+![](img/healthdatascotland_screenshot.jpg)
+
+**Motivation**
+
+During 2024 and 2025 I was moving between various addresses in Glasgow and
+Edinburgh and, as many readers may be aware of, the process of changing GP
+practice can be headache inducing. Nevermind having to do this several times in
+1 year! I found the process of trying to find out what GP practices were in my
+local area and how to contact them overly complicated. This is when the idea of
+`HealthDataScotland` was born.
+
+The first thought was just to create an interactive dashboard that would allow
+users to view GP practices in their local area and obtain their contact details.
+However, I thought why stop here?! Why only present GP practices and only
+present their contact details? Why not try make an application that was generic
+enough that it could present locations of any health care centre in your local
+area? And why not present some statistics about those health care centres that
+joe-public might be interested in? Therefore, I underwent a process of trying to
+identify what public data sets were available and then trying to use an
+object-oriented approach to design an R package that was able to handle
+different health care centres and present their data in an appropriate manner.
+
+**Output**
+
+`HealthDataScotland` is an R package containing functionality to extract,
+transform and load (ETL) GP practice and hospital data from across Scotland, and
+present this as an interactive R shiny application.
+
+The shiny application itself is hosted using the Azure container app service
+using a custom domain name. The data underlying the application is stored using
+the Azure blob service and the ETL process is performed periodically using a
+GitHub CI script.
+
+For more details please refer to the
+[documentation](https://jsleight1.github.io/HealthDataScotland/).
+
+**Future work**
+
+As previously mentioned, I have tried to design the underlying R package to be
+generic enough to handle different health care centres and present them
+appropriately in the app. Currently `HealthDataScotland` only presents GP
+practices and hospitals. However one could imagine future versions of the app
+presenting the location of other health care settings such as dental practices
+or pharmacies.

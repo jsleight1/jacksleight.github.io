@@ -1,0 +1,36 @@
+project:
+  type: website
+
+brand: brand/_brand.yml
+
+website:
+  title: "Jack Sleight"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv/index.qmd
+        text: CV
+      - href: projects/index.qmd
+        text: Projects
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jack-sleight-461a6699/
+      - icon: github
+        href: https://github.com/jsleight1
+
+  page-footer:
+    center:
+      - text: "Created using Quarto"
+  repo-url: https://github.com/jsleight1/jacksleight.github.io
+  repo-actions: [source]
+
+
+format:
+  html:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    toc_smooth_scroll: true
+    toc_highlight: true
+    fig-align: center

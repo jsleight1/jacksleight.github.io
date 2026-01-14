@@ -1,0 +1,9 @@
+color:
+  palette:
+    blue: "#1f77b4"
+    white: "#fff"
+  primary: "#1f77b4"
+  secondary: "#636EFA"
+
+typography:
+  base: libertinus serif
