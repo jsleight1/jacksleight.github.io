@@ -15,22 +15,22 @@ comments: false
 
 ## Bio
 
-I am an R developer and Bioinformatician currently working as an R/R Shiny developer at
-Audit Scotland. In this role I am part of a small team that develop web-based
-applications (primarily R Shiny) for the analysis of financial and performance
-audit data generated from public bodies in Scotland. The overarching theme
-of this work is to use a data-first analytics approach to gain insight into
-the performance of public bodies across Scotland. This contributes to
-Audit Scotland's overall aim to ensure public money is well spent to meet the
-needs of the people of Scotland.
+I am an R developer and Bioinformatician currently working as an R/R Shiny
+developer at Audit Scotland. In this role I am part of a small team that develop
+web-based applications (primarily R Shiny) for the analysis of financial and
+performance audit data generated from public bodies in Scotland. The overarching
+theme of this work is to use a data-first analytics approach to gain insight
+into the performance of public bodies across Scotland. This contributes to Audit
+Scotland's overall aim to ensure public money is well spent to meet the needs of
+the people of Scotland.
 
-My previous role was as Senior Bioinformatics Developer at Fios Genomics.
-In this role, I was part of a team that developed R and Python software
-packages to perform bioinformatic analyses for a range of clients in the
-pharmaceutical and academic sectors.
+My previous role was as Senior Bioinformatics Developer at Fios Genomics. In
+this role, I was part of a team that developed R and Python software packages.
+These packages were used by a team of bioinformaticians to perform bioinformatic
+analyses for a range of clients in the pharmaceutical and academic sectors.
 
-I have keen interest in R package development and how tools such as Shiny
-and Quarto can be used to visualise complex datasets.
+I have keen interest in R package development and how tools such as Shiny and
+Quarto can be used to visualise complex datasets.
 
 On this site I keep a copy of my CV and a list of some data projects I have
 worked on.
