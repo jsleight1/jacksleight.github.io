@@ -32,5 +32,5 @@ analyses for a range of clients in the pharmaceutical and academic sectors.
 I have keen interest in R package development and how tools such as Shiny and
 Quarto can be used to visualise complex datasets.
 
-On this site I keep a copy of my CV and a list of some data projects I have
-worked on.
+On this site I keep a copy of my CV and a list of some projects I have worked
+on.

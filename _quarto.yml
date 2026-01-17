@@ -13,11 +13,6 @@ website:
         text: CV
       - href: projects/index.qmd
         text: Projects
-    right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/jack-sleight-461a6699/
-      - icon: github
-        href: https://github.com/jsleight1
 
   page-footer:
     center:
