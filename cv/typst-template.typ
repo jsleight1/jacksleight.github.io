@@ -93,16 +93,15 @@
   #underline_header(it.body)
 ]
 
-#let linkedin-icon = box(fa-icon("linkedin", fill: rgb("#131A28")))
-#let github-icon = box(fa-icon("github", fill: rgb("#131A28")))
-
-#let professional_links() = {
+#let title_links() = {
   align(
     center,
     [
-      #github-icon
+      #box(fa-icon("map-pin", fill: rgb("#131A28")))
+      Glasgow, UK
+      #box(fa-icon("github", fill: rgb("#131A28")))
       #link("https://github.com/jsleight1/")[jsleight1]
-      #linkedin-icon
+      #box(fa-icon("linkedin", fill: rgb("#131A28")))
       #link("https://www.linkedin.com/in/jack-sleight-461a6699/")[Jack Sleight]
     ]
   )

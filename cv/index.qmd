@@ -16,7 +16,7 @@ format:
 ---
 
 ```{=typst}
-#professional_links()
+#title_links()
 ```
 
 ## Summary
