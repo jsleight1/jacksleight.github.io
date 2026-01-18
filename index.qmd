@@ -1,0 +1,45 @@
+---
+title: "Jack Sleight"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/jack-sleight-461a6699/
+        - icon: github
+          text: Github
+          url: https://github.com/jsleight1
+        - icon: file-pdf
+          text: CV
+          href: https://jsleight1.github.io/jacksleight.github.io/cv/index.pdf
+image: img/author_pic.jpg
+comments: false
+---
+
+## Bio
+
+I am an R developer and Data Scientist with a bakground in bioinformatics and
+public financial audit.
+
+My current role is as an R/R Shiny developer at Audit Scotland. In this role I
+am part of a small team that develop web-based applications (primarily R Shiny)
+for the analysis of financial and performance audit data generated from public
+bodies in Scotland. The overarching theme of this work is to use data analytics
+to gain insights into the performance of public bodies across Scotland. This
+contributes to Audit Scotland's overall aim to ensure public money is well spent
+to meet the needs of the people of Scotland.
+
+My previous roles include as Senior Bioinformatics Developer and
+Bioinformatician at Fios Genomics. Fios Genomics is a contract research
+organisation providing bioinformatic data analysis services to a range of
+clients in the pharmaceutical and academic sectors. I was part of a small team
+that developed R and Python software packages. These packages were used by a
+team of bioinformaticians to perform bioinformatic analyses such as differential
+gene expression analyses, anti-sense oligonucleotide design, and genetic variant
+calling and analysis.
+
+I have keen interest in R package development and how tools such as Shiny and
+Quarto can be used to visualise complex datasets.
+
+This site contains a copy of my CV and a list of some projects that I have
+worked on.
