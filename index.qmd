@@ -9,6 +9,9 @@ about:
         - icon: github
           text: Github
           url: https://github.com/jsleight1
+        - icon: file-pdf
+          text: CV
+          href: https://jsleight1.github.io/jacksleight.github.io/cv/index.pdf
 image: img/author_pic.jpg
 comments: false
 ---
