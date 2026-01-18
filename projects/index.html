@@ -122,6 +122,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#healthdatascotland" id="toc-healthdatascotland" class="nav-link active" data-scroll-target="#healthdatascotland">HealthDataScotland</a></li>
+  <li><a href="#covid-19-scotland" id="toc-covid-19-scotland" class="nav-link" data-scroll-target="#covid-19-scotland">COVID-19 Scotland</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/jsleight1/jacksleight.github.io/blob/main/projects/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
     </div>
@@ -135,14 +136,26 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="healthdatascotland"><a href="https://www.healthdatascotland.co.uk/">HealthDataScotland</a></h2>
 <p><img src="img/healthdatascotland_screenshot.jpg" class="img-fluid"></p>
 <p><strong>Motivation</strong></p>
-<p>During 2024 and 2025 I was moving between various addresses in Glasgow and Edinburgh and, as many readers may be aware of, the process of changing GP practice can be headache inducing. Nevermind having to do this several times in 1 year! I found the process of trying to find out what GP practices were in my local area and how to contact them overly complicated. This is when the idea of <code>HealthDataScotland</code> was born.</p>
-<p>The first thought was just to create an interactive dashboard that would allow users to view GP practices in their local area and obtain their contact details. However, I thought why stop here?! Why only present GP practices and only present their contact details? Why not try make an application that was generic enough that it could present locations of any health care centre in your local area? And why not present some statistics about those health care centres that joe-public might be interested in? Therefore, I underwent a process of trying to identify what public data sets were available and then trying to use an object-oriented approach to design an R package that was able to handle different health care centres and present their data in an appropriate manner.</p>
+<p>During 2024 and 2025 I was moving between various addresses. I found the process of trying to find out what GP practices were in my local area and how to contact them overly complicated. This is when the idea of <code>HealthDataScotland</code> was born. My first thought was just to create an interactive dashboard that would allow users to view GP practices in their local area and obtain their contact details. However, I thought why stop here?! Why only present GP practices and only present their contact details? Why not try make an application that was generic enough that it could present locations of any health care centre in your local area? And why not present some interesting statistics about those health care centres? Therefore, I underwent a process of trying to identify what public data sets were available and then trying to use an object-oriented approach to design an R package that was able to handle different health care centres and present their data in an appropriate manner.</p>
 <p><strong>Output</strong></p>
 <p><code>HealthDataScotland</code> is an R package containing functionality to extract, transform and load (ETL) GP practice and hospital data from across Scotland, and present this as an interactive R shiny application.</p>
-<p>The shiny application itself is hosted using the Azure container app service using a custom domain name. The data underlying the application is stored using the Azure blob service and the ETL process is performed periodically using a GitHub CI script.</p>
+<p>The shiny application itself is hosted using the Azure container app service with a custom domain name. The data underlying the application is stored using the Azure blob service and the ETL process is performed periodically using a GitHub CI script.</p>
 <p>For more details please refer to the <a href="https://jsleight1.github.io/HealthDataScotland/">documentation</a>.</p>
+<p><strong>Please note the container is not always running and may take a few moments to load</strong></p>
 <p><strong>Future work</strong></p>
 <p>As previously mentioned, I have tried to design the underlying R package to be generic enough to handle different health care centres and present them appropriately in the app. Currently <code>HealthDataScotland</code> only presents GP practices and hospitals. However one could imagine future versions of the app presenting the location of other health care settings such as dental practices or pharmacies.</p>
+</section>
+<section id="covid-19-scotland" class="level2">
+<h2 class="anchored" data-anchor-id="covid-19-scotland"><a href="https://jack-sleight.shinyapps.io/covid_shiny/">COVID-19 Scotland</a></h2>
+<p><img src="img/covid19scotland_screenshot.jpg" class="img-fluid"></p>
+<p><strong>Motivation</strong></p>
+<p>In 2020 the UK had been placed into lockdown due to the ongoing COVID-19 pandemic. Like most people I suddenly had some free time of my hands and wanted to try and do something productive. I was relatively new to coding in R and had never made an R shiny application before. I knew that the Scottish COVID-19 statistics were released publicly on a daily basis and I thought it would be a good idea to try and make an R Shiny application that used these data sets.</p>
+<p><strong>Output</strong></p>
+<p><code>covid19_scotland</code> is an R shiny application containing functionality to perform an ETL process of COVID-19 pandemic statistics from across Scotland, and present this as an interactive R shiny application.</p>
+<p>The shiny application is hosted on <code>shinyapps.io</code> with the data being stored using Dropbox. During the pandemic the ETL process was performed periodically using a local CRON job.</p>
+<p>This application was my first ever public data application and provided me with a good understanding as to how publicly available data can be visualised using tools such as R Shiny.</p>
+<p><strong>Future work</strong></p>
+<p>This application was deprecated in 2022.</p>
 
 
 </section>
