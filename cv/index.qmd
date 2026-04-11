@@ -1,6 +1,6 @@
 ---
 title: Jack Sleight
-subtitle: R Developer and Data Scientist
+subtitle: Data Scientist and Software Developer
 page-layout: full
 format:
     typst:
@@ -21,7 +21,7 @@ format:
 
 ## Summary
 
-I am an R developer and data scientist with over 6 years of experience. My
+I am a data scientist and software developer with over 6 years of experience. My
 current role as R/R Shiny developer at Audit Scotland involves acting as a lead
 developer for the design and maintenance of web-based data applications. These
 are used by a team of auditors for the analysis of financial and performance
@@ -91,9 +91,10 @@ developing data-centred products.
 
 - I design and maintain web-based data applications using R, SQL and Python that
 are used by teams of financial and performance auditors to perform a range of
-analyses. Typical analyses include but are not limited to:
+analyses. Projects include but are not limited to:
     - Analysis of general ledger and financial statement data.
     - Collation of Audit Scotland parliamentary interaction data.
+    - Document summarisation using natural language processing (NLP) with langchain.
 - I design and maintain data pipelines for extracting, transforming and loading
 public sector data into structured and semi-structured data sets such as
 relational databases or JSON file stores, respectively.

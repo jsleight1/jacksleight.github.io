@@ -8,46 +8,39 @@ page-layout: full
 
 **Motivation**
 
-During 2024 and 2025 I was moving between various addresses. I found the process
-of trying to find out what GP practices were in my local area and how to contact
-them overly complicated. This is when the idea of `HealthDataScotland` was born.
-My first thought was just to create an interactive dashboard that would allow
-users to view GP practices in their local area and obtain their contact details.
-However, I thought why stop here?! Why only present GP practices and only
-present their contact details? Why not try make an application that was generic
-enough that it could present locations of any health care centre in your local
-area? And why not present some interesting statistics about those health care
-centres? Therefore, I underwent a process of trying to identify what public data
-sets were available and then trying to use an object-oriented approach to design
-an R package that was able to handle different health care centres and present
-their data in an appropriate manner.
+The idea of `HealthDataScotland` arose when I found myself moving between
+various addresses and trying to find GP practices in my local area. My first
+thought was just to create an interactive dashboard that would allow users to
+view GP practices in their local area and obtain their contact details. However,
+this thought expanded to trying to make an application that was generic enough
+that it was able present locations of any health care centre. I underwent a
+process of trying to identify what public data sets were available and then
+trying to use an object-oriented approach to design an R package that was able
+to handle different health care centres and present their data in an appropriate
+manner.
 
 **Output**
 
-`HealthDataScotland` is an R package containing functionality to extract,
-transform and load (ETL) GP practice and hospital data from across Scotland, and
+`HealthDataScotland` is an R package that contains functionality to extract,
+transform and load GP practice and hospital data from across Scotland, and
 present this as an interactive R shiny application.
 
-The shiny application itself is hosted using the Azure container app service
-with a custom domain name. The data underlying the application is stored using
-the Azure blob service and the ETL process is performed periodically using a
-GitHub CI script.
+The shiny application is hosted using the Azure container app service with a
+custom domain name. The data underlying the application is stored using the
+Azure blob service and the ETL process is performed periodically using a
+custom GitHub action.
+
+I tried to design the underlying R package to be generic enough to handle
+different health care centres and present them appropriately in the app.
+Currently `HealthDataScotland` only presents GP practices and hospitals. However
+one could imagine future versions of the app presenting the location of other
+health care settings such as dental practices or pharmacies.
 
 For more details please refer to the
 [documentation](https://jsleight1.github.io/HealthDataScotland/).
 
 **Please note the container is not always running and may take a few moments to
 load**
-
-**Future work**
-
-As previously mentioned, I have tried to design the underlying R package to be
-generic enough to handle different health care centres and present them
-appropriately in the app. Currently `HealthDataScotland` only presents GP
-practices and hospitals. However one could imagine future versions of the app
-presenting the location of other health care settings such as dental practices
-or pharmacies.
-
 
 ## [COVID-19 Scotland](https://jack-sleight.shinyapps.io/covid_shiny/)
 
@@ -75,7 +68,5 @@ using a local CRON job.
 This application was my first ever public data application and provided me with
 a good understanding as to how publicly available data can be visualised using
 tools such as R Shiny.
-
-**Future work**
 
 This application was deprecated in 2022.

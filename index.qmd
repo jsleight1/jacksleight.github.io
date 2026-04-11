@@ -21,13 +21,13 @@ comments: false
 I am an R developer and data scientist with a background in bioinformatics and
 public financial audit.
 
-My current role is as an R/R Shiny developer at Audit Scotland. In this role I
-am part of a small team that develop web-based applications using tools such as
-R/Python Shiny and Quarto for the analysis of financial and performance audit
-data generated from public bodies in Scotland. The overarching theme of this
-work is to use data analytics to gain insights into the performance of public
-bodies across Scotland. This contributes to Audit Scotland's overall aim to
-ensure public money is well spent to meet the needs of the people of Scotland.
+My current role is as an R/R Shiny developer at Audit Scotland. I am part of a
+small team that develop web-based applications using tools such as R/Python
+Shiny and Quarto for the analysis of financial and performance audit data
+generated from public bodies in Scotland. The overarching theme of this work is
+to use data analytics to gain insights into the performance of public bodies
+across Scotland. This contributes to Audit Scotland's overall aim to ensure
+public money is well spent to meet the needs of the people of Scotland.
 
 My previous roles include as Senior Bioinformatics Developer and
 Bioinformatician at Fios Genomics. Fios Genomics is a contract research
