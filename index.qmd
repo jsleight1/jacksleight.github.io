@@ -18,8 +18,8 @@ comments: false
 
 ## Bio
 
-I am a data scientist and software developer with a with a background in
-bioinformatics and public financial audit.
+I am a data scientist and software developer with a background in bioinformatics
+and public audit.
 
 My current role is as an R/R Shiny developer at Audit Scotland. I am part of a
 small team that develop web-based applications using tools such as R/Python
