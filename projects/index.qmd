@@ -8,7 +8,7 @@ page-layout: full
 
 **Motivation**
 
-The idea of `HealthDataScotland` arose when I found myself moving addresses and
+The idea of `HealthDataScotland` arose when I found myself moving address and
 trying to find GP practices in my local area. My first thought was to create an
 interactive dashboard that allowed users to view GP practices in their local
 area and obtain their contact details. However, this idea expanded to make an
