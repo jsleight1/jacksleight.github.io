@@ -136,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="healthdatascotland" class="level2">
-<h2 class="anchored" data-anchor-id="healthdatascotland"><a href="https://www.healthdatascotland.co.uk/">HealthDataScotland</a></h2>
+<h2 class="anchored" data-anchor-id="healthdatascotland"><a href="https://www.healthdatascotland.co.uk/" target="_blank">HealthDataScotland</a></h2>
 <p><img src="img/healthdatascotland_screenshot.jpg" class="img-fluid"></p>
 <p><strong>Motivation</strong></p>
 <p>The idea of <code>HealthDataScotland</code> arose when I found myself moving address and trying to find GP practices in my local area. My first thought was to create an interactive dashboard that allowed users to view GP practices in their local area and obtain their contact details. However, this idea expanded to make an more generic application that presented locations of different types of health care centre. I underwent a process of trying to identify which public data sets containing this data were available and then trying to design an object-oriented R package that was able to handle different health care centres and present their data in an appropriate manner.</p>
@@ -144,21 +144,21 @@ ul.task-list li input[type="checkbox"] {
 <p><code>HealthDataScotland</code> is an R package that contains functionality to extract, transform and load GP practice and hospital data from across Scotland, and present this as an interactive R shiny application.</p>
 <p>The shiny application is hosted using the Azure container app service with a custom domain name. The data underlying the application is stored using the Azure blob service and the ETL process is performed periodically using a custom GitHub action.</p>
 <p>I have tried to design the underlying R package to be generic so that it can be easily extended to present different health care centres when appropriate public sets become available. Currently <code>HealthDataScotland</code> only presents GP practices and hospitals. However, in future versions the app may be able to present data for other health care settings such as dental practices or pharmacies.</p>
-<p>For more details please refer to the <a href="https://jsleight1.github.io/HealthDataScotland/">documentation</a>.</p>
+<p>For more details please refer to the <a href="https://jsleight1.github.io/HealthDataScotland/" target="_blank">documentation</a>.</p>
 <p><strong>Please note the container is not always running and may take a few moments to load</strong></p>
 </section>
 <section id="lgbfscotland" class="level2">
-<h2 class="anchored" data-anchor-id="lgbfscotland"><a href="https://www.lgbfscotland.co.uk/">LGBFScotland</a></h2>
+<h2 class="anchored" data-anchor-id="lgbfscotland"><a href="https://www.lgbfscotland.co.uk/" target="_blank">LGBFScotland</a></h2>
 <p><img src="img/lgbfscotland_screenshot.jpg" class="img-fluid"></p>
 <p><strong>Motivation</strong></p>
-<p>The local government benchmarking framework (<a href="https://www.improvementservice.org.uk/products-and-services/data-intelligence-and-benchmarking/local-government-benchmarking-framework">LGBF</a>) combines different metrics that allow assessment of how well local authorities in Scotland are delivering their services. I had previously completed an R project analysing this data set (see <a href="https://github.com/jsleight1/LGBF">LGBF</a>). However a key motivation for this new project was that I wanted to improve my skills in developing packages with Python. The LGBF is publicly available and provides some interesting insights into the performance of Scottish local authorities. Therefore, I thought this would be a good data set to gain experience using <a href="https://shiny.posit.co/py/">Shiny for Python</a> and developing python packages using the <a href="https://docs.astral.sh/uv/">uv</a> Python package manager.</p>
+<p>The local government benchmarking framework (<a href="https://www.improvementservice.org.uk/products-and-services/data-intelligence-and-benchmarking/local-government-benchmarking-framework" target="_blank">LGBF</a>) combines different metrics that allow assessment of how well local authorities in Scotland are delivering their services. I had previously completed an R project analysing this data set (see <a href="https://github.com/jsleight1/LGBF" target="_blank">LGBF</a>). However a key motivation for this new project was that I wanted to improve my skills in developing packages with Python. The LGBF is publicly available and provides some interesting insights into the performance of Scottish local authorities. Therefore, I thought this would be a good data set to gain experience using <a href="https://shiny.posit.co/py/" target="_blank">Shiny for Python</a> and developing python packages using the <a href="https://docs.astral.sh/uv/" target="_blank">uv</a> Python package manager.</p>
 <p><strong>Output</strong></p>
 <p><code>LGBFScotland</code> is a Python package containing functionality to extract, transform and load LGBF data, and present this as an interactive Python shiny application.</p>
 <p>The shiny application is hosted using the Azure container app service with a custom domain name. The data underlying the application is stored using the Azure blob service and the ETL process is performed periodically using a GitHub action.</p>
 <p><strong>Please note the container is not always running and may take a few moments to load</strong></p>
 </section>
 <section id="covid-19-scotland" class="level2">
-<h2 class="anchored" data-anchor-id="covid-19-scotland"><a href="https://jack-sleight.shinyapps.io/covid_shiny/">COVID-19 Scotland</a></h2>
+<h2 class="anchored" data-anchor-id="covid-19-scotland"><a href="https://jack-sleight.shinyapps.io/covid_shiny/" target="_blank">COVID-19 Scotland</a></h2>
 <p><img src="img/covid19scotland_screenshot.jpg" class="img-fluid"></p>
 <p><strong>Motivation</strong></p>
 <p>In 2020 the UK had been placed into lockdown due to the ongoing COVID-19 pandemic. Like most people I suddenly had some free time of my hands and wanted to try and do something productive. I was relatively new to coding in R and had never made an R shiny application before. I knew that the Scottish COVID-19 statistics were released publicly on a daily basis and I thought it would be a good idea to try and make an R Shiny application that used these data sets.</p>
