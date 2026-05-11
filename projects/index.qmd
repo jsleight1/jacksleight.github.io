@@ -41,6 +41,39 @@ For more details please refer to the
 **Please note the container is not always running and may take a few moments to
 load**
 
+## [LGBFScotland](https://www.lgbfscotland.co.uk/)
+
+![](img/lgbfscotland_screenshot.jpg)
+
+**Motivation**
+
+The local government benchmarking framework
+([LGBF](https://www.improvementservice.org.uk/products-and-services/data-intelligence-and-benchmarking/local-government-benchmarking-framework))
+combines different metrics that allow assessment of how well local authorities
+in Scotland are delivering their services. I had previously completed an R
+project analysing this data set (see [LGBF](https://github.com/jsleight1/LGBF)).
+However a key motivation for this new project was that I wanted to improve my
+skills in developing packages with Python. The LGBF is publicly available and
+provides some interesting insights into the performance of Scottish local
+authorities. Therefore, I thought this would be a good data set to gain
+experience using [Shiny for Python](https://shiny.posit.co/py/) and developing
+python packages using the [uv](https://docs.astral.sh/uv/) Python package
+manager.
+
+**Output**
+
+`LGBFScotland` is a Python package containing functionality to extract,
+transform and load LGBF data, and present this as an interactive Python shiny
+application.
+
+The shiny application is hosted using the Azure container app service with a
+custom domain name. The data underlying the application is stored using the
+Azure blob service and the ETL process is performed periodically using a
+GitHub action.
+
+**Please note the container is not always running and may take a few moments to
+load**
+
 ## [COVID-19 Scotland](https://jack-sleight.shinyapps.io/covid_shiny/)
 
 ![](img/covid19scotland_screenshot.jpg)
