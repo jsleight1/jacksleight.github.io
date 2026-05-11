@@ -2,7 +2,7 @@
 page-layout: full
 ---
 
-## [HealthDataScotland](https://www.healthdatascotland.co.uk/)
+## [HealthDataScotland](https://www.healthdatascotland.co.uk/){target="_blank"}
 
 ![](img/healthdatascotland_screenshot.jpg)
 
@@ -36,29 +36,30 @@ and hospitals. However, in future versions the app may be able to present data
 for other health care settings such as dental practices or pharmacies.
 
 For more details please refer to the
-[documentation](https://jsleight1.github.io/HealthDataScotland/).
+[documentation](https://jsleight1.github.io/HealthDataScotland/){target="_blank"}.
 
 **Please note the container is not always running and may take a few moments to
 load**
 
-## [LGBFScotland](https://www.lgbfscotland.co.uk/)
+## [LGBFScotland](https://www.lgbfscotland.co.uk/){target="_blank"}
 
 ![](img/lgbfscotland_screenshot.jpg)
 
 **Motivation**
 
 The local government benchmarking framework
-([LGBF](https://www.improvementservice.org.uk/products-and-services/data-intelligence-and-benchmarking/local-government-benchmarking-framework))
+([LGBF](https://www.improvementservice.org.uk/products-and-services/data-intelligence-and-benchmarking/local-government-benchmarking-framework){target="_blank"})
 combines different metrics that allow assessment of how well local authorities
 in Scotland are delivering their services. I had previously completed an R
-project analysing this data set (see [LGBF](https://github.com/jsleight1/LGBF)).
-However a key motivation for this new project was that I wanted to improve my
-skills in developing packages with Python. The LGBF is publicly available and
-provides some interesting insights into the performance of Scottish local
-authorities. Therefore, I thought this would be a good data set to gain
-experience using [Shiny for Python](https://shiny.posit.co/py/) and developing
-python packages using the [uv](https://docs.astral.sh/uv/) Python package
-manager.
+project analysing this data set (see
+[LGBF](https://github.com/jsleight1/LGBF){target="_blank"}). However a key
+motivation for this new project was that I wanted to improve my skills in
+developing packages with Python. The LGBF is publicly available and provides
+some interesting insights into the performance of Scottish local authorities.
+Therefore, I thought this would be a good data set to gain experience using
+[Shiny for Python](https://shiny.posit.co/py/){target="_blank"} and developing
+python packages using the [uv](https://docs.astral.sh/uv/){target="_blank"}
+Python package manager.
 
 **Output**
 
@@ -74,7 +75,7 @@ GitHub action.
 **Please note the container is not always running and may take a few moments to
 load**
 
-## [COVID-19 Scotland](https://jack-sleight.shinyapps.io/covid_shiny/)
+## [COVID-19 Scotland](https://jack-sleight.shinyapps.io/covid_shiny/){target="_blank"}
 
 ![](img/covid19scotland_screenshot.jpg)
 
