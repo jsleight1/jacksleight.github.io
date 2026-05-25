@@ -169,7 +169,7 @@ solutions and autoclaving of laboratory waste.
 ### University of Glasgow
 
 ::: {.content-visible when-format="html"}
-#### MSc - Bioinformatics with Distinction with Distinction<span style="float: right;">2018-2019
+#### MSc - Bioinformatics with Distinction<span style="float: right;">2018-2019
 :::
 ```{=typst}
 #justified_header("MSc - Bioinformatics with Distinction with Distinction", "2018-2019")
