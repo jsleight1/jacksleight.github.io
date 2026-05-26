@@ -23,15 +23,15 @@ and public audit.
 
 My current role is as an R/R Shiny developer at Audit Scotland. I am part of a
 small team that develop web-based applications using tools such as R Shiny,
-Python Shiny and Quarto for the analysis of financial and performance audit data
-generated from public bodies in Scotland. The overarching theme of this work is
-to gain insights into the performance of public bodies across Scotland. This
-contributes to Audit Scotland's overall aim to ensure public money is well spent
-to meet the needs of the people of Scotland.
+Python Shiny and Quarto for the analysis of financial and performance audit
+data. The overarching theme of this work is to gain insights into how public
+bodies across Scotland are performing. This contributes to Audit Scotland's
+overall aim to ensure public money is well spent to meet the needs of the people
+of Scotland.
 
 In my former roles I functioned as a Senior Bioinformatics Developer and
 Bioinformatician at Fios Genomics. Fios Genomics is a contract research
-organisation providing bioinformatic data analysis services to a range of
+organisation that provides bioinformatic data analysis services to a range of
 clients in the pharmaceutical and academic sectors. I was part of a small team
 that developed R and Python software packages for use by a team of
 bioinformaticians to perform a variety of bioinformatic analyses. Typical

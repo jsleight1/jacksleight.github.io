@@ -138,7 +138,7 @@ tools such as Docker and GitLab CI pipelines.
 ```{=typst}
 #justified_header("Senior Bioinformatician", "2021-2023")
 ```
-- I acted as a lead bioinformatic data scientist for a range of different
+- I acted as the lead bioinformatic data scientist for a range of different
 statistical analysis projects.
 - I provided scientific and technical guidance to junior bioinformaticians.
 - I was regularly involved in scoping statistical analysis plans for new and
