@@ -57,7 +57,7 @@
 #let justified_header(primary, secondary, font_size: 12pt) = {
   set block(
     above: 0.9em,
-    below: 0.6em,
+    below: 0.8em,
   )
   pad[
     #justify_align[
