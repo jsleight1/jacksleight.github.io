@@ -3,9 +3,9 @@ title: Jack Sleight
 subtitle: Data Scientist and Software Developer
 page-layout: full
 format:
-    typst:
-        template-partials:
-            - typst-template.typ
+    docx:
+        toc: false
+        reference-doc: word-template.docx
     html:
         toc: true
         toc_depth: 3
@@ -13,11 +13,20 @@ format:
         toc_smooth_scroll: true
         toc_highlight: true
         fig-align: center
+    typst:
+        template-partials:
+            - typst-template.typ
 ---
 
 ```{=typst}
 #title_links()
 ```
+
+:::: {.content-visible when-format="docx"}
+::: {custom-style="Subtitle"}
+Glasgow, UK. ![](img/github.png){width=0.15in height=0.15in} [GitHub](https://github.com/jsleight1/). ![](img/linkedin.png){width=0.15in height=0.15in} [linkedin](https://www.linkedin.com/in/jack-sleight-461a6699/)
+:::
+::::
 
 ## Summary
 

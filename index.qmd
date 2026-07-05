@@ -10,8 +10,11 @@ about:
           text: Github
           url: https://github.com/jsleight1
         - icon: file-pdf
-          text: CV
+          text: CV - PDF
           href: https://jsleight1.github.io/jacksleight.github.io/cv/index.pdf
+        - icon: file-word
+          text: CV - DOCX
+          href: https://jsleight1.github.io/jacksleight.github.io/cv/index.docx
 image: img/author_pic.jpg
 comments: false
 ---
