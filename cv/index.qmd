@@ -104,7 +104,7 @@ data sets and developing data-centred products.
 Typical projects include:
     - Analysis of general ledger and financial statement data.
     - Automation of Audit Scotland business support functions.
-    - Development of custom AI chatbot for internal document summarisation.
+    - Development of custom RAG agent for internal document summarisation.
 - I design and maintain data pipelines for extracting, transforming and loading
 public sector data into structured and semi-structured data sets such as
 relational databases or JSON file stores, respectively.
