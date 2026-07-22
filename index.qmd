@@ -36,8 +36,8 @@ Senior Bioinformatician at Fios Genomics. Fios Genomics is a contract research
 organisation that provides bioinformatic data analysis services to a range of
 clients in the pharmaceutical and academic sectors. My work here included
 engineering an internal codebase of primarily R and Python packages to improve
-and automate a range of bioinformatic analyses. Typical analyses include
-differential gene expression analyses, anti-sense oligonucleotide design,
+and automate a range of bioinformatic analyses. Typical analyses included
+differential gene expression analysis, anti-sense oligonucleotide design,
 variant calling and haplotype analysis, and development of machine learning
 models using omics data sets.
 
