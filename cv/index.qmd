@@ -54,6 +54,18 @@ data sets and developing data-centred products.
 :::
 
 ::: {.column width="50%"}
+### Data science
+- Tidyverse/Tidymodels
+- Quarto/RMarkdown
+- Shiny/Plotly/Bslib/DT
+- Numpy/Pandas/Matplotlib/Seaborn
+:::
+
+::::
+
+:::: {layout-ncol="2"}
+
+::: {.column width="50%"}
 ### Bioinformatics
 - RNA-seq
 - Variant calling and haplotype analysis
@@ -63,28 +75,16 @@ data sets and developing data-centred products.
 - NextFlow
 :::
 
-::::
-
-:::: {layout-ncol="2"}
-
-::: {.column width="50%"}
-### Data science
-- Tidyverse/Tidymodels
-- Quarto/RMarkdown
-- Shiny/Plotly/Bslib/DT
-- Numpy/Pandas/Matplotlib/Seaborn
-:::
-
 ::: {.column width="50%"}
 ### Engineering
 - Git
 - Docker
 - CI/CD
 - Linux
-- Azure
-- Relational database design
+- Azure SQL/Blob storage/Container apps/App service/OpenAI
 - Devtools/Testthat
 - Uv/Poetry/Pytest
+- Relational database design
 :::
 
 ::::
@@ -101,7 +101,7 @@ data sets and developing data-centred products.
 ```
 
 - I design and maintain data applications typically using R, SQL and Python.
-Typical projects include:
+Projects include:
     - Analysis of general ledger and financial statement data.
     - Automation of Audit Scotland business support functions.
     - Development of custom RAG agent for internal document summarisation.
@@ -138,7 +138,7 @@ creation of best practice documentation.
 #justified_header("Senior Bioinformatician", "2021-2023")
 ```
 - I acted as a lead bioinformatic data scientist for statistical analysis projects
-utilising various omics data types. Typical analyses included:
+utilising various omics data types. Analyses included:
     - Critical and confounding factors analysis of biological experimental study
     designs.
     - Analysis of high dimensional data such as gene expression and custom
