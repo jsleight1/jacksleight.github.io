@@ -37,8 +37,8 @@ analysis of financial and performance audit data. In my previous
 roles at Fios Genomics, I acted as a senior bioinformatician and developer
 providing statistical analyses for a range of clients in the pharmaceutical and
 academic sectors. From my experiences in both the private life science and
-public audit sectors, I have acquired transferable skills in analysing complex
-data sets and developing data-centred products.
+public audit sectors, I have acquired transferable skills in developing automated
+pipelines, transforming complex data sets and creating data-centred products.
 
 ## Skills
 
@@ -84,7 +84,6 @@ data sets and developing data-centred products.
 - Azure SQL/Blob storage/Container apps/App service/OpenAI
 - Devtools/Testthat
 - Uv/Poetry/Pytest
-- Relational database design
 :::
 
 ::::
@@ -108,8 +107,8 @@ Projects include:
 - I design and maintain data pipelines for extracting, transforming and loading
 public sector data into structured and semi-structured data sets such as
 relational databases or JSON file stores, respectively.
-- I use Git for version control and develop GitHub pipelines for maintaining
-code and adhering to continuous integration (CI) and continuous development (CD)
+- I use Git for version control and developing automated pipelines for maintaining
+code by adhering to continuous integration (CI) and continuous development (CD)
 practices.
 - I am involved in the maintenance of Azure and Posit infrastructure for developing
 and hosting applications.
@@ -146,7 +145,6 @@ utilising various omics data types. Analyses included:
     - Hypergeometric and gene-set enrichment testing of biological pathways.
     - Designing personalised allele-specific ASOs using
     whole genome sequencing data.
-    - Data mining of public bioinformatic databases.
     - Development of machine learning models for predicting drug response
     using omics data.
 - I provided scientific and technical guidance to junior bioinformaticians.
