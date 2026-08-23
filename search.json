@@ -4,21 +4,21 @@
     "href": "cv/index.html",
     "title": "Jack Sleight",
     "section": "",
-    "text": "I am a data scientist and software developer with over 7 years of experience. In my current role as an R/R Shiny developer at Audit Scotland, I am a lead developer creating web-based applications in R and Python for the analysis of financial and performance audit data. In my previous roles at Fios Genomics, I acted as a senior bioinformatician and developer providing statistical analyses for a range of clients in the pharmaceutical and academic sectors. From my experiences in both the private life science and public audit sectors, I have acquired transferable skills in developing automated pipelines, transforming complex data sets and creating data-centred products."
+    "text": "I am a data scientist and software developer with over 7 years of experience. In my current role as an R/R Shiny developer at Audit Scotland, I act as a lead developer creating web-based applications in R and Python for the analysis of financial and performance audit data. In my previous roles at Fios Genomics, I acted as a senior bioinformatician and developer providing statistical analyses for a range of clients in the pharmaceutical and academic sectors. From my experiences in both the private life science and public audit sectors, I have acquired transferable skills in developing automated pipelines, transforming complex data sets and creating data-centred products."
   },
   {
     "objectID": "cv/index.html#summary",
     "href": "cv/index.html#summary",
     "title": "Jack Sleight",
     "section": "",
-    "text": "I am a data scientist and software developer with over 7 years of experience. In my current role as an R/R Shiny developer at Audit Scotland, I am a lead developer creating web-based applications in R and Python for the analysis of financial and performance audit data. In my previous roles at Fios Genomics, I acted as a senior bioinformatician and developer providing statistical analyses for a range of clients in the pharmaceutical and academic sectors. From my experiences in both the private life science and public audit sectors, I have acquired transferable skills in developing automated pipelines, transforming complex data sets and creating data-centred products."
+    "text": "I am a data scientist and software developer with over 7 years of experience. In my current role as an R/R Shiny developer at Audit Scotland, I act as a lead developer creating web-based applications in R and Python for the analysis of financial and performance audit data. In my previous roles at Fios Genomics, I acted as a senior bioinformatician and developer providing statistical analyses for a range of clients in the pharmaceutical and academic sectors. From my experiences in both the private life science and public audit sectors, I have acquired transferable skills in developing automated pipelines, transforming complex data sets and creating data-centred products."
   },
   {
     "objectID": "cv/index.html#skills",
     "href": "cv/index.html#skills",
     "title": "Jack Sleight",
     "section": "Skills",
-    "text": "Skills\n\n\n\n\nProgramming\n\nR\nPython\nSQL\nJavaScript\nBash\n\n\n\n\n\nData science\n\nTidyverse/Tidymodels\nQuarto/RMarkdown\nShiny/Plotly/Bslib/DT\nNumpy/Pandas/Matplotlib/Seaborn\n\n\n\n\n\n\n\n\n\nBioinformatics\n\nRNA-seq\nVariant calling and haplotype analysis\nASO design\nProteomics\nHigh-throughput screening development\nNextFlow\n\n\n\n\n\nEngineering\n\nGit\nDocker\nCI/CD\nLinux\nAzure SQL/Blob storage/Container apps/App service/OpenAI\nDevtools/Testthat\nUv/Poetry/Pytest"
+    "text": "Skills\n\n\n\n\nProgramming\n\nR\nPython\nSQL\nJavaScript\nBash\n\n\n\n\n\nData science\n\nTidyverse, Tidymodels\nQuarto, RMarkdown\nShiny, Plotly, Bslib, DT\nNumpy, Pandas, Matplotlib, Seaborn\n\n\n\n\n\n\n\n\n\nBioinformatics\n\nRNA-seq\nVariant calling and haplotype analysis\nAnti-sense oligonucleotide design\nProteomics\nHigh-throughput screening development\nNextflow\nOver-representation and gene-set enrichment analysis\n\n\n\n\n\nEngineering\n\nGit\nDocker\nCI/CD\nLinux\nAzure: SQL/Blob storage/Container apps/App service/OpenAI\nR package development: Devtools, Testthat, Covr\nPython package development: Uv, Poetry, Pytest, Coverage"
   },
   {
     "objectID": "cv/index.html#experience",
@@ -32,7 +32,7 @@
     "href": "cv/index.html#education",
     "title": "Jack Sleight",
     "section": "Education",
-    "text": "Education\n\nUniversity of Glasgow\n\nMSc - Bioinformatics with Distinction2018-2019\n\nI was awarded a Scottish Funding Council scholarship based on undergraduate academic performance.\nDissertation: Implementing a pipeline for the detection of copy number variants in a custom panel capture library for hereditary cancer.\n\n\n\n\nUniversity of Strathclyde\n\nBSc - Pharmacology and Biochemistry with First Class Honours2016-2018\n\nI was awarded the Biochemical Society prize for academic achievement.\n\n\n\n\nUniversity of Glasgow\n\nDipHE - Medical Science2013-2015"
+    "text": "Education\n\nUniversity of Glasgow\n\nMSc - Bioinformatics with Distinction2018-2019\n\nI was awarded a Scottish Funding Council scholarship based on undergraduate academic performance.\nDissertation: Implementing a pipeline for the detection of copy number variants in hereditary cancer.\n\n\n\n\nUniversity of Strathclyde\n\nBSc - Pharmacology and Biochemistry with First Class Honours2016-2018\n\nI was awarded the Biochemical Society prize for academic achievement.\n\n\n\n\nUniversity of Glasgow\n\nDipHE - Medical Science2013-2015"
   },
   {
     "objectID": "cv/index.html#training-and-teaching",
