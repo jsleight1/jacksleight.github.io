@@ -31,7 +31,7 @@ Glasgow, UK. [GitHub](https://github.com/jsleight1/). [Linkedin](https://www.lin
 ## Summary
 
 I am a data scientist and software developer with over 7 years of experience.
-In my current role as an R/R Shiny developer at Audit Scotland, I am a
+In my current role as an R/R Shiny developer at Audit Scotland, I act as a
 lead developer creating web-based applications in R and Python for the
 analysis of financial and performance audit data. In my previous
 roles at Fios Genomics, I acted as a senior bioinformatician and developer
@@ -55,10 +55,10 @@ pipelines, transforming complex data sets and creating data-centred products.
 
 ::: {.column width="50%"}
 ### Data science
-- Tidyverse/Tidymodels
-- Quarto/RMarkdown
-- Shiny/Plotly/Bslib/DT
-- Numpy/Pandas/Matplotlib/Seaborn
+- Tidyverse, Tidymodels
+- Quarto, RMarkdown
+- Shiny, Plotly, Bslib, DT
+- Numpy, Pandas, Matplotlib, Seaborn
 :::
 
 ::::
@@ -69,10 +69,11 @@ pipelines, transforming complex data sets and creating data-centred products.
 ### Bioinformatics
 - RNA-seq
 - Variant calling and haplotype analysis
-- ASO design
+- Anti-sense oligonucleotide design
 - Proteomics
 - High-throughput screening development
-- NextFlow
+- Nextflow
+- Over-representation and gene-set enrichment analysis
 :::
 
 ::: {.column width="50%"}
@@ -81,9 +82,9 @@ pipelines, transforming complex data sets and creating data-centred products.
 - Docker
 - CI/CD
 - Linux
-- Azure SQL/Blob storage/Container apps/App service/OpenAI
-- Devtools/Testthat
-- Uv/Poetry/Pytest
+- Azure: SQL/Blob storage/Container apps/App service/OpenAI
+- R package development: Devtools, Testthat, Covr
+- Python package development: Uv, Poetry, Pytest, Coverage
 :::
 
 ::::
@@ -183,7 +184,7 @@ of laboratory waste.
 ```
 - I was awarded a Scottish Funding Council scholarship based on undergraduate
 academic performance.
-- Dissertation: Implementing a pipeline for the detection of copy number variants in a custom panel capture library for hereditary cancer.
+- Dissertation: Implementing a pipeline for the detection of copy number variants in  hereditary cancer.
 
 ### University of Strathclyde
 
