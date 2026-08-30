@@ -31,14 +31,14 @@ Glasgow, UK. [GitHub](https://github.com/jsleight1/). [Linkedin](https://www.lin
 ## Summary
 
 I am a data scientist and software developer with over 7 years of experience.
-In my current role as an R/R Shiny developer at Audit Scotland, I act as a
+In my current role as an R/R Shiny developer at Audit Scotland, I operate as a
 lead developer creating web-based applications in R and Python for the
 analysis of financial and performance audit data. In my previous
 roles at Fios Genomics, I acted as a senior bioinformatician and developer
 providing statistical analyses for a range of clients in the pharmaceutical and
 academic sectors. From my experiences in both the private life science and
 public audit sectors, I have acquired transferable skills in developing automated
-pipelines, transforming complex data sets and creating data-centred products.
+data pipelines, transforming complex data sets and creating data-centred user applications.
 
 ## Skills
 
@@ -73,7 +73,7 @@ pipelines, transforming complex data sets and creating data-centred products.
 - Proteomics
 - High-throughput screening development
 - Nextflow
-- Over-representation and gene-set enrichment analysis
+- Hypergeometric and gene-set enrichment analysis
 :::
 
 ::: {.column width="50%"}
@@ -83,8 +83,8 @@ pipelines, transforming complex data sets and creating data-centred products.
 - CI/CD
 - Linux
 - Azure: SQL/Blob storage/Container apps/App service/OpenAI
-- R package development: Devtools, Testthat, Covr
-- Python package development: Uv, Poetry, Pytest, Coverage
+- R development: Devtools, Testthat, Covr
+- Python development: Uv, Poetry, Pytest, Coverage
 :::
 
 ::::
