@@ -25,7 +25,7 @@
   // Configure page properties
   set page(
     paper: "us-letter",
-    margin: (x: 2cm, y: 2cm)
+    margin: (x: 2cm, y: 2cm, top: 1.75cm, bottom: 1.75cm)
   )
   align(center, text(size: title-size, weight: "bold", title))
   align(center, text(size: subtitle-size, weight: "bold", subtitle))

@@ -206,8 +206,9 @@ academic performance.
 ```
 
 ## Training and teaching
+- 2026 – I obtained my certificate in Microsoft Azure Data Fundamentals (DP-900).
 - 2025 – I attended the Shiny in Production conference run by Jumping Rivers Ltd.
 - 2022 – I completed the Exploring Genetic Variation EMBI-EBL virtual course.
 - 2021 – I presented a COVID-19 R Shiny application at the Edinburgh Data
-Visualisation Meetup
+Visualisation Meetup.
 
