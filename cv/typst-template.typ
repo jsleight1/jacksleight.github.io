@@ -18,10 +18,7 @@
 ) = {
   set par(justify: true)
   // Configure text properties
-  set text(
-    font: font,
-    size: fontsize,
-  )
+  set text(font: font, size: fontsize)
   // Configure page properties
   set page(
     paper: "us-letter",
@@ -35,37 +32,22 @@
 #let justify_align(left_body, right_body) = {
   block[
     #box(width: 4fr)[#left_body]
-    #box(width: 1fr)[
-      #align(right)[
-        #right_body
-      ]
-    ]
+    #box(width: 1fr)[#align(right)[#right_body]]
   ]
 }
 
 #let secondary_right_header(body) = {
   context {
-    set text(
-      size: 10pt,
-      weight: "bold",
-      fill: black,
-    )
+    set text(size: 10pt, weight: "bold", fill: black)
     body
   }
 }
 
 #let justified_header(primary, secondary, font_size: 12pt) = {
-  set block(
-    above: 0.9em,
-    below: 0.8em,
-  )
+  set block(above: 0.9em, below: 0.8em)
   pad[
     #justify_align[
-      #set text(
-        size: font_size,
-        weight: "bold",
-        fill: black,
-      )
+      #set text(size: font_size, weight: "bold", fill: black)
       #primary
     ][
       #secondary_right_header[#secondary]
@@ -74,16 +56,9 @@
 }
 
 #let underline_header(body, font_size: 12pt) = {
-    set block(
-      above: 0.9em,
-      below: 0.6em,
-    )
+    set block(above: 0.9em, below: 0.8em)
     pad[
-        #set text(
-            size: font_size,
-            weight: "bold",
-            fill: rgb("#1f77b4")
-        )
+        #set text(size: font_size, weight: "bold", fill: rgb("#1f77b4"))
         #body
         #line(length: 100%, stroke: (paint: rgb("#1f77b4")))
     ]
